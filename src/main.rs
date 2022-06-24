@@ -1,5 +1,7 @@
 #[allow(unused)]
+use leetcode::{divide, mul};
 
 fn main() {
-    println!("{}", i32::MIN);
+    let x = divide(-2147483648, 2);
+    println!("{x}");
 }
